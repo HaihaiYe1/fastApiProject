@@ -1,7 +1,3 @@
-当然可以，以下是仅保留文字介绍、去除 - 和 │、├── 等符号后的纯文本版：
-
-⸻
-
 fastapi_project
 app
 init.py
@@ -27,7 +23,3 @@ requirements.txt       依赖包
 alembic                数据库迁移（使用 Alembic）
 alembic.ini            Alembic 配置
 README.md              项目说明
-
-⸻
-
-如果你还需要转换成 Markdown、HTML 表格或文档格式也可以告诉我。
