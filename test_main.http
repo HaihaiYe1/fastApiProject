@@ -1,0 +1,20 @@
+### 测试主页
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+### 测试 Hello API
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+### 测试登录 API
+POST http://127.0.0.1:8000/auth/login
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "password123"
+}
+
+### 获取设备列表
+GET http://127.0.0.1:8000/devices
+Accept: application/json
